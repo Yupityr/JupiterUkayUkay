@@ -8,8 +8,11 @@ export const Header = () => {
                 <p className="mx-2 my-auto text-xl ">
                     <Link to={'/'} className="temp-logo"> Jupiter</Link>
                 </p>
-                
             </div>
+            <nav>
+                    <Link to={'/signin'} className="mx-2 text-sm font-medium hover:text-black">Sign In</Link>
+                    <Link to={'/signup'} className="mx-2 text-sm font-medium hover:text-black">Sign Up</Link>
+                </nav>
         </header>
     )
 }
